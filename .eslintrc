@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "brace-style": off,
+    "padded-blocks": off,
+    "no-param-reassign": [2, { "props": false }],
+    "no-use-before-define": ["error", { "functions": false, "classes": false }]
+  }
+}

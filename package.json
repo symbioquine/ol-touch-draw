@@ -1,0 +1,56 @@
+{
+  "name": "ol-touch-draw",
+  "version": "0.0.1",
+  "description": "A simplified touch-friendly drawing interaction for OpenLayers 6",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/symbioquine/ol-touch-draw.git"
+  },
+  "main": "dist/ol-touch-draw.cjs.js",
+  "module": "dist/ol-touch-draw.esm.js",
+  "browser": "dist/ol-touch-draw.umd.js",
+  "scripts": {
+    "lint": "eslint src",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test-spec": "npm run karma -- --single-run --log-level error",
+    "test": "npm run test-spec",
+    "karma": "karma start test/karma.config.js",
+    "pretest": "npm run build",
+    "doc": "documentation readme src/index.js --section=API",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "css-loader": "^5.2.1",
+    "documentation": "^13.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "expect.js": "^0.3.1",
+    "express": "^4.17.1",
+    "karma": "^6.3.2",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage-istanbul-reporter": "^3.0.3",
+    "karma-mocha": "^2.0.1",
+    "karma-rollup-preprocessor": "^7.0.7",
+    "karma-sourcemap-loader": "^0.3.8",
+    "loglevelnext": "^4.0.1",
+    "mocha": "^8.3.2",
+    "ol": "^6.5.0",
+    "puppeteer": "^8.0.0",
+    "rollup": "^2.12.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^1.3.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "sinon": "^10.0.0"
+  },
+  "peerDependencies": {
+    "ol": "^6.5.0"
+  }
+}
