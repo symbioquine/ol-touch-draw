@@ -1,12 +1,18 @@
 {
   "name": "ol-touch-draw",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simplified touch-friendly drawing interaction for OpenLayers 6",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/symbioquine/ol-touch-draw.git"
   },
+  "keywords": [
+    "openlayers",
+    "drawing",
+    "touch",
+    "ol"
+  ],
   "main": "dist/ol-touch-draw.cjs.js",
   "module": "dist/ol-touch-draw.esm.js",
   "browser": "dist/ol-touch-draw.umd.js",
