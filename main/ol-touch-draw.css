@@ -1,0 +1,23 @@
+.unit-selector-touch-draw {
+  bottom: 7.5em;
+  right: .5em;
+}
+.confirm-touch-draw {
+  bottom: 5em;
+  right: .5em;
+}
+.cancel-touch-draw {
+  bottom: 2.5em;
+  right: .5em;
+  color: red;
+}
+.cancel-touch-draw button {
+  color: red;
+}
+.ol-touchdraw-dim-popup input {
+  width: 4em;
+  margin: 0;
+  border: 1px solid;
+  padding: 3px;
+  text-align: center;
+}
