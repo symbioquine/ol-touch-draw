@@ -1,6 +1,6 @@
 {
   "name": "ol-touch-draw",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simplified touch-friendly drawing interaction for OpenLayers 6",
   "license": "MIT",
   "repository": {
@@ -34,7 +34,7 @@
     "@rollup/plugin-commonjs": "^12.0.0",
     "@rollup/plugin-node-resolve": "^8.4.0",
     "css-loader": "^5.2.1",
-    "documentation": "^13.2.0",
+    "documentation": "^13.2.5",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-plugin-import": "^2.20.2",
