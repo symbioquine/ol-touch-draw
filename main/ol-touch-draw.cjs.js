@@ -932,9 +932,9 @@ class TouchDraw extends PointerInteraction__default['default'] {
           selectedUnit: this.selectedUnit_,
         });
 
-        this.draftingState_.once(TouchDrawEventType.DRAWSTART, (e) => this.dispatchEvent(e));
         this.draftingState_.once(TouchDrawEventType.DRAWEND, (e) => this.handleDrawEnd_(e));
         this.draftingState_.once(TouchDrawEventType.DRAWABORT, (e) => this.handleDrawAbort_(e));
+        this.dispatchEvent(new TouchDrawEvent(TouchDrawEventType.DRAWSTART, this.draftingState_.draftFeature_));
       }
 
       return true;
