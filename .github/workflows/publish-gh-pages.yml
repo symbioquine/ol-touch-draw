@@ -7,7 +7,6 @@ on:
 jobs:
   publish-to-gh-pages:
     name: Publish to Github Pages
-    needs: build
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
