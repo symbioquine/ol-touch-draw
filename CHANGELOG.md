@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Improved Github release and main publishing to Github pages
 
+### Fixed
+
+- Fixed emitting of 'drawstart' events
+
 ## [v0.0.2] - 2021-04-24
 
 ### Changed
