@@ -513,7 +513,7 @@ class TouchDrawFeatureDraftingState extends BaseObject__default['default'] {
     const originalSegmentCoords = initialTouchDrawHandle.get('originalSegmentCoords');
 
     const draftFeature = new Feature__default['default']({
-      geometry: new geom.Polygon([[...originalSegmentCoords, ...originalSegmentCoords]], 'XY'),
+      geometry: new geom.Polygon([[...originalSegmentCoords, ...originalSegmentCoords, originalSegmentCoords[0]]], 'XY'),
     });
 
     const handleXMovementBasisVector = getOrthogonalBasisVector(...originalSegmentCoords);
@@ -660,7 +660,7 @@ class TouchDrawFeatureDraftingState extends BaseObject__default['default'] {
     this.YMovePopup_.setPosition(originalSegmentCoords[1]);
 
     const recalculateDraftFeatureGeometry = () => {
-      const newGeom = new geom.Polygon([[...originalSegmentCoords, ...originalSegmentCoords]], 'XY');
+      const newGeom = new geom.Polygon([[...originalSegmentCoords, ...originalSegmentCoords, originalSegmentCoords[0]]], 'XY');
 
       const xScaleTranslation = this.xScaleHandle_.get('movementVector');
 
