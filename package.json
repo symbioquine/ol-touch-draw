@@ -1,6 +1,6 @@
 {
   "name": "ol-touch-draw",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simplified touch-friendly drawing interaction for OpenLayers 6",
   "license": "MIT",
   "repository": {

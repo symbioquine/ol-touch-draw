@@ -7,9 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.0.4] - 2021-10-08
+
 ### Fixed
 
 - Fixed publishing from main branch to Github pages
+- Properly close the drawn polygons
 
 ## [v0.0.3] - 2021-06-30
 
@@ -39,7 +42,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial check-in
 
-[unreleased]: https://github.com/symbioquine/ol-touch-draw/compare/v0.0.3...HEAD
+[unreleased]: https://github.com/symbioquine/ol-touch-draw/compare/v0.0.4...HEAD
+[v0.0.4]: https://github.com/symbioquine/ol-touch-draw/compare/v0.0.3...v0.0.4
 [v0.0.3]: https://github.com/symbioquine/ol-touch-draw/compare/v0.0.2...v0.0.3
 [v0.0.2]: https://github.com/symbioquine/ol-touch-draw/compare/v0.0.1...v0.0.2
 [v0.0.1]: https://github.com/symbioquine/ol-touch-draw/releases/tag/v0.0.1
